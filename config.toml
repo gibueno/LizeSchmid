@@ -1,0 +1,68 @@
+baseurl = "https://gilbertobueno.me/"
+title = "Lize Schmidt Tattoo"
+theme = "hugo-creative-portfolio-theme"
+languageCode = "pt-br"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "Site profissional da tatuadora Lize Schmidt, mostrando os seus trabalhos autorais de tatuagem e inspitrações"
+  # copyright = "&copy;2016 Your name or company"
+  sidebarAbout = [
+    "Sou tatuadora a mais de 34 anos, trabalhando do Iapó ao Chui."
+  ]
+  sidebarAvatar = "/img/avatar2.jpg"
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "lizy.sch@hotmail.com"
+
+    # Optional Matomo analytics (formerly piwik)
+      # [params.analytics.matomo]
+      #  URL = "https://stats.example.com"
+      #  ID = "42"
+      #  # Track all subdomains with "*.example.com" (Optional)
+      #  domain = "www.example.com"
+      #  # Optional integrity check hash
+      #  hash = ""
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = "portfolio/"
+  home = true
+
+  [[params.navlinks]]
+  name = "Sobre"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Contato"
+  url = "contact/"
+
+  [params.social]
+  facebook      = "full page or profile url in facebook"
+  # googleplus    = "full profile url in googleplus"
+  email         = "lizy.sch@hotmail.com"
+  # twitter       = "full profile url in twitter"
+  # linkedin      = "full profile url in linkedin"
+  # stackoverflow = "full profile url in stackoverflow"
+  instagram     = "https://www.instagram.com/lize_schmidt/"
+  # github        = "full profile url in github"
+  # gitlab        = "full profile url in gitlab"
+  # youtube       = "full profile url in youtube"
+  whatsapp      = "https://wa.me/message/4PPPXAMMGHK6B1"
